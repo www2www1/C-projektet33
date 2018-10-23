@@ -1,0 +1,20 @@
+C:\Users\donbh\Desktop\projekt c#\projektet\projektet\bin\Debug\projektet.exe.config
+C:\Users\donbh\Desktop\projekt c#\projektet\projektet\bin\Debug\projektet.exe
+C:\Users\donbh\Desktop\projekt c#\projektet\projektet\bin\Debug\projektet.pdb
+C:\Users\donbh\Desktop\projekt c#\projektet\projektet\obj\Debug\projektet.csprojAssemblyReference.cache
+C:\Users\donbh\Desktop\projekt c#\projektet\projektet\obj\Debug\projektet.Form1.resources
+C:\Users\donbh\Desktop\projekt c#\projektet\projektet\obj\Debug\projektet.Properties.Resources.resources
+C:\Users\donbh\Desktop\projekt c#\projektet\projektet\obj\Debug\projektet.csproj.GenerateResource.cache
+C:\Users\donbh\Desktop\projekt c#\projektet\projektet\obj\Debug\projektet.csproj.CoreCompileInputs.cache
+C:\Users\donbh\Desktop\projekt c#\projektet\projektet\obj\Debug\projektet.exe
+C:\Users\donbh\Desktop\projekt c#\projektet\projektet\obj\Debug\projektet.pdb
+C:\Users\donbh\Documents\GitHub\curly-Winner\projektet\projektet\bin\Debug\projektet.exe.config
+C:\Users\donbh\Documents\GitHub\curly-Winner\projektet\projektet\bin\Debug\projektet.exe
+C:\Users\donbh\Documents\GitHub\curly-Winner\projektet\projektet\bin\Debug\projektet.pdb
+C:\Users\donbh\Documents\GitHub\curly-Winner\projektet\projektet\obj\Debug\projektet.csprojAssemblyReference.cache
+C:\Users\donbh\Documents\GitHub\curly-Winner\projektet\projektet\obj\Debug\projektet.Form1.resources
+C:\Users\donbh\Documents\GitHub\curly-Winner\projektet\projektet\obj\Debug\projektet.Properties.Resources.resources
+C:\Users\donbh\Documents\GitHub\curly-Winner\projektet\projektet\obj\Debug\projektet.csproj.GenerateResource.cache
+C:\Users\donbh\Documents\GitHub\curly-Winner\projektet\projektet\obj\Debug\projektet.csproj.CoreCompileInputs.cache
+C:\Users\donbh\Documents\GitHub\curly-Winner\projektet\projektet\obj\Debug\projektet.exe
+C:\Users\donbh\Documents\GitHub\curly-Winner\projektet\projektet\obj\Debug\projektet.pdb
