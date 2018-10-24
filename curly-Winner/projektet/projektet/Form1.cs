@@ -20,7 +20,7 @@ namespace projektet
             if (urlTest != "")
             {
                 
-
+                ///instancering av en class
                 var enpodcast = new Podcast();
                 enpodcast.Namn = "";
                 enpodcast.updateringFrekvens = 12;
