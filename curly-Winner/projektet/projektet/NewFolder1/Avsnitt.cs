@@ -11,6 +11,6 @@ namespace projektet
         public int längden { get; set;}
         public string title { get; set; }
         public DateTime datum { get; set; }
-
+        public string information { get; set; }
     }
 }

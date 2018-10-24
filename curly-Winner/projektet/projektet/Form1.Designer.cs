@@ -70,21 +70,22 @@
             // chAvsnitt
             // 
             this.chAvsnitt.Text = "Avsnitt";
-            this.chAvsnitt.Width = 55;
+            this.chAvsnitt.Width = 97;
             // 
             // chNamn
             // 
             this.chNamn.Text = "Namn";
+            this.chNamn.Width = 95;
             // 
             // chFrekvens
             // 
             this.chFrekvens.Text = "Frekvens";
-            this.chFrekvens.Width = 70;
+            this.chFrekvens.Width = 105;
             // 
             // chKategori1
             // 
             this.chKategori1.Text = "Kategori";
-            this.chKategori1.Width = 75;
+            this.chKategori1.Width = 96;
             // 
             // CBUF
             // 
