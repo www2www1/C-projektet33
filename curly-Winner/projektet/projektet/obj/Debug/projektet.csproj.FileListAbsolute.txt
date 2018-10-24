@@ -28,3 +28,13 @@ C:\Users\donbh\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\o
 C:\Users\donbh\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\obj\Debug\projektet.csproj.CoreCompileInputs.cache
 C:\Users\donbh\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\obj\Debug\projektet.exe
 C:\Users\donbh\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\obj\Debug\projektet.pdb
+C:\Users\Dario\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\bin\Debug\projektet.exe.config
+C:\Users\Dario\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\bin\Debug\projektet.exe
+C:\Users\Dario\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\bin\Debug\projektet.pdb
+C:\Users\Dario\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\obj\Debug\projektet.csprojAssemblyReference.cache
+C:\Users\Dario\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\obj\Debug\projektet.Form1.resources
+C:\Users\Dario\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\obj\Debug\projektet.Properties.Resources.resources
+C:\Users\Dario\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\obj\Debug\projektet.csproj.GenerateResource.cache
+C:\Users\Dario\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\obj\Debug\projektet.csproj.CoreCompileInputs.cache
+C:\Users\Dario\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\obj\Debug\projektet.exe
+C:\Users\Dario\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\obj\Debug\projektet.pdb
