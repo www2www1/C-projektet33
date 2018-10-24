@@ -16,15 +16,47 @@ namespace projektet
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string[] lista = new string[] { };
 
 
-            CreateFileOfPobcastes();
+            string path = @"D:\text.txt";
+            //if (File.Exists(path))
+            //{
+            //    using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite))
+            //    {
+            //        using (StreamReader sre = new StreamReader(fs))
+            //        {
+            //            foreach (var länk in lista)
+            //            {
+            //                sre.ReadLine() += länk;
+                         
+                        
+            //            }
+            //        }
+            //    }
+            //    Close();
+            //}
+            using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite))
+            {
+                using (StreamWriter sr = new StreamWriter(fs))
+                {
+
+                    var nyLänk = tbUrl.Text;
+                    Array.Resize(ref lista, lista.Length + 1);
+                
+                    for (int i = 0; i < lista.Length; i++)
+                    {
+                        lista[lista.Length-1] = nyLänk;
+                    }
 
 
+
+
+                    Close();
+
+                }
+            }
         }
-        
-
-
 
 
 
@@ -49,42 +81,7 @@ namespace projektet
             }
         }
 
-        public void CreateFileOfPobcastes()
-        {
-            string[] lista = new string[] { };
-            try
-            {
-                string path = @"C:\Users\donbh\Documents\GitHub\C-projektet33\curly-Winner\projektet\projektet\NewFolder1";
-                var Dir = Directory.CreateDirectory(path);
-                if (File.Exists(path))
-                {
-                    lista = File.ReadAllLines(path);
-                    var nyLänk = tbUrl.Text;
-                    foreach (var länk in lista)
-                    {
-                        if (!länk.ToString().Equals(nyLänk))
-                        {
-                            lista[0] = nyLänk;
-                            File.WriteAllLines(path, lista);
 
-                        }
-                        else
-                        {
-                            MessageBox.Show(" denna URL-länk existerar redan", "Error..", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
-                    }
-
-                }
-
-            }
-
-
-            catch (Exception ex)
-            {
-
-            }
-
-        }
     }
 }
 
