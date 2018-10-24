@@ -7,10 +7,14 @@ namespace projektet
 {
     public partial class Form1 : Form
     {
+        string[] list = new string[] { };
+
+
         private HttpClient Client = new HttpClient();
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         String[,] rssData = null;
@@ -32,47 +36,6 @@ namespace projektet
                 listBox1.SelectedIndex = 0;
             }
 
-
-            //string[] lista = new string[] { };
-
-
-            // string path = @"D:\text.txt";
-            //if (File.Exists(path))
-            //{
-            //    using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite))
-            //    {
-            //        using (StreamReader sre = new StreamReader(fs))
-            //        {
-            //            foreach (var länk in lista)
-            //            {
-            //                sre.ReadLine() += länk;
-
-
-            //            }
-            //        }
-            //    }
-            //    Close();
-            //}
-            //    using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite))
-            //    {
-            //        using (StreamWriter sr = new StreamWriter(fs))
-            //        {
-
-            //            var nyLänk = tbUrl.Text;
-            //            Array.Resize(ref lista, lista.Length + 1);
-
-            //            for (int i = 0; i < lista.Length; i++)
-            //            {
-            //                lista[lista.Length-1] = nyLänk;
-            //            }
-
-
-
-
-            //            Close();
-
-            //        }
-            //    }
         }
 
 
@@ -164,7 +127,43 @@ namespace projektet
         private void tbUrl_TextChanged(object sender, EventArgs e) {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FileStream fs = new FileStream(@"C:\text.txt", FileMode.OpenOrCreate);
+            fs.Close();
+            string path = @"C:\text.txt";
+            if (File.Exists(path))
+                spara(path);
+
+        }
+        private void spara(string path)
+        {
+           
+            list = File.ReadAllLines(path);
+            using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite))
+            {
+                using (StreamWriter sr = new StreamWriter(fs))
+                {
+
+                    var nyLänk = tbUrl.Text;
+                    Array.Resize(ref list, list.Length + 1);
+                    list[list.Length - 1] = nyLänk;
+                    for (int i = 0; i < list.Length; i++)
+                    {
+                        sr.WriteLine(list[i]);
+                    }
+
+
+
+
+                    Close();
+
+                }
+            }
+        }
     }
     }
+    
 
 

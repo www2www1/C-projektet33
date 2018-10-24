@@ -62,10 +62,10 @@
             this.chNamn,
             this.chFrekvens,
             this.chKategori1});
-            this.listView1.Location = new System.Drawing.Point(2, 20);
-            this.listView1.Margin = new System.Windows.Forms.Padding(2);
+            this.listView1.Location = new System.Drawing.Point(3, 25);
+            this.listView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(387, 130);
+            this.listView1.Size = new System.Drawing.Size(515, 159);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -94,18 +94,18 @@
             // CBUF
             // 
             this.CBUF.FormattingEnabled = true;
-            this.CBUF.Location = new System.Drawing.Point(178, 182);
-            this.CBUF.Margin = new System.Windows.Forms.Padding(2);
+            this.CBUF.Location = new System.Drawing.Point(237, 224);
+            this.CBUF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CBUF.Name = "CBUF";
-            this.CBUF.Size = new System.Drawing.Size(116, 21);
+            this.CBUF.Size = new System.Drawing.Size(153, 24);
             this.CBUF.TabIndex = 2;
             // 
             // tbUrl
             // 
-            this.tbUrl.Location = new System.Drawing.Point(2, 182);
-            this.tbUrl.Margin = new System.Windows.Forms.Padding(2);
+            this.tbUrl.Location = new System.Drawing.Point(3, 224);
+            this.tbUrl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbUrl.Name = "tbUrl";
-            this.tbUrl.Size = new System.Drawing.Size(175, 20);
+            this.tbUrl.Size = new System.Drawing.Size(232, 22);
             this.tbUrl.TabIndex = 3;
             this.tbUrl.Tag = "";
             this.tbUrl.TextChanged += new System.EventHandler(this.tbUrl_TextChanged);
@@ -113,10 +113,9 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(9, 163);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(12, 201);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 14);
+            this.label1.Size = new System.Drawing.Size(45, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "URL :";
             // 
@@ -124,19 +123,18 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(304, 163);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(405, 201);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "Kategori :";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(4, 205);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(5, 252);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 19);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 6;
             this.button1.Text = "Ny";
             this.button1.UseVisualStyleBackColor = true;
@@ -144,20 +142,21 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(65, 205);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(87, 252);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(56, 19);
+            this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 7;
             this.button2.Text = "Spara";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(126, 205);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Location = new System.Drawing.Point(168, 252);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(56, 19);
+            this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 8;
             this.button3.Text = "Ta bort";
             this.button3.UseVisualStyleBackColor = true;
@@ -165,66 +164,66 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(5, 253);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(7, 311);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(384, 95);
+            this.listBox1.Size = new System.Drawing.Size(511, 116);
             this.listBox1.TabIndex = 9;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(184, 163);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(245, 201);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 13);
+            this.label3.Size = new System.Drawing.Size(147, 17);
             this.label3.TabIndex = 10;
             this.label3.Text = "Updateringsfrekvens :";
             // 
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(407, 20);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox3.Location = new System.Drawing.Point(543, 25);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(213, 21);
+            this.comboBox3.Size = new System.Drawing.Size(283, 24);
             this.comboBox3.TabIndex = 11;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(407, 76);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Location = new System.Drawing.Point(543, 94);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(213, 20);
+            this.textBox1.Size = new System.Drawing.Size(283, 22);
             this.textBox1.TabIndex = 12;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(407, 131);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Location = new System.Drawing.Point(543, 161);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(56, 19);
+            this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 13;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(488, 131);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Location = new System.Drawing.Point(651, 161);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(56, 19);
+            this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 14;
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(563, 131);
-            this.button6.Margin = new System.Windows.Forms.Padding(2);
+            this.button6.Location = new System.Drawing.Point(751, 161);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(56, 19);
+            this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 15;
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
@@ -232,64 +231,63 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(393, 253);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(524, 311);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(46, 17);
             this.label4.TabIndex = 16;
             this.label4.Text = "label4";
             // 
             // CBK
             // 
             this.CBK.FormattingEnabled = true;
-            this.CBK.Location = new System.Drawing.Point(298, 182);
-            this.CBK.Margin = new System.Windows.Forms.Padding(2);
+            this.CBK.Location = new System.Drawing.Point(397, 224);
+            this.CBK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CBK.Name = "CBK";
-            this.CBK.Size = new System.Drawing.Size(92, 21);
+            this.CBK.Size = new System.Drawing.Size(121, 24);
             this.CBK.TabIndex = 17;
             // 
             // lblUrl
             // 
             this.lblUrl.AutoSize = true;
-            this.lblUrl.Location = new System.Drawing.Point(49, 163);
-            this.lblUrl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUrl.Location = new System.Drawing.Point(65, 201);
             this.lblUrl.Name = "lblUrl";
-            this.lblUrl.Size = new System.Drawing.Size(0, 13);
+            this.lblUrl.Size = new System.Drawing.Size(0, 17);
             this.lblUrl.TabIndex = 18;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 4);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(4, 5);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 13);
+            this.label5.Size = new System.Drawing.Size(148, 17);
             this.label5.TabIndex = 19;
             this.label5.Text = "Podcasts information :";
             // 
             // DescriptionTextBox
             // 
-            this.DescriptionTextBox.Location = new System.Drawing.Point(449, 253);
+            this.DescriptionTextBox.Location = new System.Drawing.Point(599, 311);
+            this.DescriptionTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DescriptionTextBox.Multiline = true;
             this.DescriptionTextBox.Name = "DescriptionTextBox";
-            this.DescriptionTextBox.Size = new System.Drawing.Size(170, 95);
+            this.DescriptionTextBox.Size = new System.Drawing.Size(225, 116);
             this.DescriptionTextBox.TabIndex = 20;
             // 
             // linkLabel
             // 
             this.linkLabel.AutoSize = true;
-            this.linkLabel.Location = new System.Drawing.Point(6, 354);
+            this.linkLabel.Location = new System.Drawing.Point(8, 436);
+            this.linkLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel.Name = "linkLabel";
-            this.linkLabel.Size = new System.Drawing.Size(55, 13);
+            this.linkLabel.Size = new System.Drawing.Size(72, 17);
             this.linkLabel.TabIndex = 21;
             this.linkLabel.TabStop = true;
             this.linkLabel.Text = "linkLabel1";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(664, 398);
+            this.ClientSize = new System.Drawing.Size(885, 490);
             this.Controls.Add(this.linkLabel);
             this.Controls.Add(this.DescriptionTextBox);
             this.Controls.Add(this.label5);
@@ -311,7 +309,7 @@
             this.Controls.Add(this.tbUrl);
             this.Controls.Add(this.CBUF);
             this.Controls.Add(this.listView1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Kategori";
             this.Load += new System.EventHandler(this.Form1_Load);

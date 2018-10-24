@@ -11,6 +11,7 @@ namespace projektet
         public int updateringFrekvens { get; set; }
         public Kategori PodcastKategori { get; set; }
         public int AntalAvsnitt { get; }
+        public string PathRss { get; set; }
 
         
 
